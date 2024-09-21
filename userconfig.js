@@ -93,7 +93,8 @@ const default_config = {
             icon_color: "#ea6962",
           },
         ],
-      },
+      }, ],
+    },
     {
       name: "design",
       background_url: "src/img/banners/cbg-6.gif",
