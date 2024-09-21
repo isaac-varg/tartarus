@@ -29,33 +29,39 @@ const default_config = {
   openLastVisitedTab: false,
   tabs: [
     {
-      name: "consumption",
+      name: "media",
       background_url: "src/img/banners/cbg-2.gif",
       categories: [{
-        name: "Tele",
+        name: "watch",
         links: [
           {
             name: "Netflix",
-            url: "https://netflic.com/",
+            url: "https://netflix.com/",
             icon: "brand-netflix",
             icon_color: "#a9b665",
           },
+{
+            name: "jellyfin",
+            url: "https://www.minimonster.local:8096",
+            icon: "brand-jellyfin",
+            icon_color: "#d3869b",
+          },
           {
-            name: "twitter",
-            url: "https://twitter.com/home",
-            icon: "brand-twitter-filled",
+            name: "Peacock",
+            url: "https://peacock.com/",
+            icon: "brand-peacock",
             icon_color: "#7daea3",
           },
           {
-            name: "reddit",
-            url: "https://www.reddit.com/",
-            icon: "brand-reddit",
+            name: "Max",
+            url: "https://www.max.com/",
+            icon: "brand-hbo",
             icon_color: "#e78a4e",
           },
           {
-            name: "youtube",
-            url: "https://www.youtube.com/",
-            icon: "brand-youtube-filled",
+            name: "Hulu",
+            url: "https://www.Hulu.com/",
+            icon: "brand-hulu-filled",
             icon_color: "#ea6962",
           },
           {
@@ -66,45 +72,28 @@ const default_config = {
           },
         ],
       }, {
-        name: "Games",
+        name: "read",
         links: [
           {
-            name: "chess",
-            url: "https://www.chess.com/home",
-            icon: "chess-queen-filled",
+            name: "hoopla",
+            url: "https://www.hoopla.com/home",
+            icon: "hoopla",
             icon_color: "#a9b665",
           },
           {
-            name: "monkeytype",
-            url: "https://monkeytype.com/",
+            name: "komga",
+            url: "https://minimonster.local:25600",
             icon: "keyboard",
             icon_color: "#e78a4e",
           },
           {
-            name: "tetris",
-            url: "https://tetris.com/",
+            name: "goodreads",
+            url: "https://goodreads.com/",
             icon: "brand-apple-arcade",
             icon_color: "#ea6962",
           },
         ],
-      }, {
-        name: "Video",
-        links: [
-          {
-            name: "disney+",
-            url: "https://www.disneyplus.com/home",
-            icon: "brand-disney",
-            icon_color: "#7daea3",
-          },
-          {
-            name: "primevideo",
-            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
-            icon: "brand-amazon",
-            icon_color: "#7daea3",
-          },
-        ],
-      }],
-    },
+      },
     {
       name: "design",
       background_url: "src/img/banners/cbg-6.gif",
