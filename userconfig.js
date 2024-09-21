@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
+    location: '',
     scale: "C",
   },
   clock: {
@@ -25,19 +25,19 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://chat.openai.com/",
-  openLastVisitedTab: true,
+  fastlink: "https://youtube.com",
+  openLastVisitedTab: false,
   tabs: [
     {
-      name: "chi ll",
+      name: "consumption",
       background_url: "src/img/banners/cbg-2.gif",
       categories: [{
-        name: "Social Media",
+        name: "Tele",
         links: [
           {
-            name: "whatsapp",
-            url: "https://web.whatsapp.com/",
-            icon: "brand-whatsapp",
+            name: "Netflix",
+            url: "https://netflic.com/",
+            icon: "brand-netflix",
             icon_color: "#a9b665",
           },
           {
