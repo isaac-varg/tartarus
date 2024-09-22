@@ -40,16 +40,22 @@ const default_config = {
             icon: "brand-netflix",
             icon_color: "#ccd5ae",
           },
-{
+	  {
             name: "JellyFin",
             url: "http://www.minimonster.local:8096",
-            icon: "cookie-filled",
+            icon: "cookie",
             icon_color: "#e9edc9",
+          },
+	  {
+            name: "YouTube",
+            url: "https://www.youtube.com/",
+            icon: "brand-youtube",
+            icon_color: "#faedcd",
           },
           {
             name: "Peacock",
             url: "https://peacock.com/",
-            icon: "feather-filled",
+            icon: "feather",
             icon_color: "#fefae0",
           },
           {
@@ -77,7 +83,7 @@ const default_config = {
           {
             name: "Hoopla",
             url: "https://www.hoopla.com/home",
-            icon: "book-outlined",
+            icon: "book",
             icon_color: "#ffb4a2",
           },
           {
