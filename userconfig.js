@@ -88,7 +88,7 @@ const default_config = {
           },
           {
             name: "Komga",
-            url: "https://minimonster.local:25600",
+            url: "http://minimonster.local:25600",
             icon: "book-2",
             icon_color: "#b5838d",
           },
@@ -102,7 +102,7 @@ const default_config = {
       }, ],
     },
     {
-      name: "design",
+      name: "create",
       background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
