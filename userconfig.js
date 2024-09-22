@@ -103,88 +103,47 @@ const default_config = {
     },
     {
       name: "create",
-      background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/cbg-4.gif",
       categories: [
         {
-          name: "inspiration",
+          name: "thinking",
           links: [
             {
-              name: "pinterest",
+              name: "Notion",
               url: "https://www.pinterest.es/",
-              icon: "brand-pinterest",
+              icon: "brand-notion",
               icon_color: "#ea6962",
             },
             {
-              name: "artstation",
-              url: "https://www.artstation.com/?sort_by=community",
-              icon: "chart-area",
+              name: "ChatGTP",
+              url: "https://chat.openai.com",
+              icon: "chart-opneai",
               icon_color: "#7daea3",
             },
             {
-              name: "leonardo ai",
-              url: "https://app.leonardo.ai/",
-              icon: "brand-openai",
+              name: "Figma",
+              url: "https://figma.com",
+              icon: "brand-figma",
               icon_color: "#89b482",
-            },
-            {
-              name: "dribble",
-              url: "https://dribbble.com/following",
-              icon: "brand-dribbble-filled",
-              icon_color: "#d3869b",
             },
           ],
         },
         {
-          name: "resources",
+          name: "tools",
           links: [
-            {
-              name: "figma",
-              url: "https://www.figma.com",
-              icon: "brand-figma",
-              icon_color: "#d3869b",
-            },
-            {
-              name: "uxpro",
-              url: "https://uxpro.cc/",
-              icon: "components",
-              icon_color: "#a9b665",
-            },
-            {
+                        {
               name: "colorhunt",
               url: "https://colorhunt.co/",
               icon: "color-picker",
               icon_color: "#ea6962",
             },
-            {
-              name: "adobe color",
-              url: "https://color.adobe.com/es/create/color-wheel",
-              icon: "brand-adobe",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "terminalsexy",
-              url: "https://terminal.sexy",
-              icon: "prompt",
-              icon_color: "#e78a4e",
-            },
           ],
         },
-        {
-          name: "resources 3d",
-          links: [
-            {
-              name: "thingiverse",
-              url: "https://www.thingiverse.com/",
-              icon: "circle-letter-t",
-              icon_color: "#7daea3",
-            },
-          ],
-        },
-      ],
+              ],
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-7.gif",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
           name: "repositories",
@@ -195,85 +154,32 @@ const default_config = {
               icon: "brand-github",
               icon_color: "#7daea3",
             },
-            {
-              name: "gitlab",
-              url: "https://gitlab.com/",
-              icon: "brand-gitlab",
-              icon_color: "#e78a4e",
-            },
           ],
         },
         {
           name: "resources",
           links: [
             {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
-            },
-            {
               name: "flutter",
               url: "https://docs.flutter.dev/ui",
               icon: "brand-flutter",
               icon_color: "#7daea3",
-            },
-            {
-              name: "hacktricks",
-              url: "https://book.hacktricks.xyz/welcome/readme",
-              icon: "biohazard",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
-              icon_color: "#7daea3",
-            },
-          ],
-        },
-        {
-          name: "challenges",
-          links: [
-            {
-              name: "hackthebox",
-              url: "https://app.hackthebox.com",
-              icon: "box",
-              icon_color: "#a9b665",
-            },
-            {
-              name: "cryptohack",
-              url: "https://cryptohack.org/challenges/",
-              icon: "brain",
-              icon_color: "#e78a4e",
-            },
-            {
-              name: "tryhackme",
-              url: "https://tryhackme.com/dashboard",
-              icon: "brand-onedrive",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "hackerrank",
-              url: "https://www.hackerrank.com/dashboard",
-              icon: "code-asterix",
-              icon_color: "#a9b665",
             },
           ],
         },
       ],
     },
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      name: "learn",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
-          name: "mails",
+          name: "asdf",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com/mail/u/0/",
-              icon: "brand-gmail",
+              name: "Monkey Type",
+              url: "https://monkeytype.com",
+              icon: "brand-monkey-type",
               icon_color: "#ea6962",
             },
           ],
@@ -288,12 +194,6 @@ const default_config = {
               icon_color: "#e78a4e",
             },
             {
-              name: "dropbox",
-              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
-              icon: "box-seam",
-              icon_color: "#7daea3",
-            },
-            {
               name: "fotos",
               url: "https://photos.google.com/u/1",
               icon: "photo-filled",
@@ -301,18 +201,7 @@ const default_config = {
             },
           ],
         },
-        {
-          name: "stuff",
-          links: [
-            {
-              name: "linkedin",
-              url: "https://www.linkedin.com/feed/",
-              icon: "brand-linkedin",
-              icon_color: "#7daea3",
-            },
-          ],
-        },
-      ],
+       ],
     },
   ],
 };
